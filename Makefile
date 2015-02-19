@@ -1,7 +1,7 @@
 install: dirs install_tpm teamocil link
 
 link:
-	ln -sf ~/.tmux.conf ~/.tmux/tmux.conf
+	ln -sf ~/.tmux/tmux.conf ~/.tmux.conf 
 
 dirs:
 	mkdir plugins
